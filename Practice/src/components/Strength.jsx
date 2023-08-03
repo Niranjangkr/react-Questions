@@ -3,10 +3,7 @@ import React, { useEffect } from 'react';
 const Strength = ({ text }) => {
 
     const [condition, setCondition] = React.useState('');
-    const [status, setStats] = React.useState({
-        status: '',
-        color: 'white'
-    });
+    const [status, setStats] = React.useState({});
 
     React.useEffect(() => {
         const hasUpperCase = /[A-Z]/.test(text);
