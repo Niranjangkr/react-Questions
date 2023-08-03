@@ -16,7 +16,7 @@ function Form() {
      <input type={hide?'password':'text'} name="" id="" onChange = {(e) => setText(e.target.value)} value={text}/>
      <button onClick={() => setHide(prevState => !prevState)}>{hide?'Show':'Hide'}</button>
      <button onClick={() => setText('')}>Clear All</button>
-     <Strength />   
+     <Strength text = {text}/>   
     </>
   )
 }
