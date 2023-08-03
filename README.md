@@ -1,4 +1,12 @@
+# set up locally 
+- clone the repo or download it
+- go to folder practice
+- run command ```npm install ```
+- then run ```npm run dev```
+**All Set!!**
+
 # Question 1
+
 ## Problem Statement: Password Strength Checker and Toggle
 
 You are tasked with creating a password input component with additional functionalities to enhance user experience. The component should include an input box for entering the password, two buttons for toggling password visibility and clearing the input, and a strength indicator component to evaluate the password strength.
